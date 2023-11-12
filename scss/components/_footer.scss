@@ -1,0 +1,23 @@
+footer {
+    font-family: "Neucha-Regular, Neucha";
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    padding: 15px 0;
+    color: white;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .iconosfooter {
+    display: flex;
+    gap: 15px;
+  }
+
+  .text-right {
+    text-align: right;
+  }

@@ -1,0 +1,65 @@
+header {
+    grid-area: header;
+    background-color: hwb(0 0% 100%);
+    padding: 30px;
+    height: 90px;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    flex-direction: left;
+    align-items: center;
+    font-family: Neucha;
+    a {
+        color: #ffff;
+        font-size: 20px;
+    }
+        ul {
+        list-style-type: none;
+        display: flex;
+        gap: 10px;
+        flex-direction: left;
+        justify-content: center;
+        align-items: center;
+        }
+}
+.Comienzodepag{ 
+    left: 125px;
+    position: absolute;
+    font-size: 40px;
+    top: 25px;
+}
+.LogoComienzodepag {
+    position: absolute;
+    left: 50px;
+    top: 19px;
+}
+.LogoComienzodepag img {
+    width: 70px;
+    height: 70px;
+}
+
+.Carro{
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    display: inline-block;
+    position: relative; 
+}
+
+.cantidad {
+    background: red;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    top: -30%;
+    left:-60%;
+    transform: translateX(-50%); 
+    padding: 3px 10px;
+}

@@ -1,0 +1,74 @@
+
+main, section {
+    display: flex;
+    grid-template-columns: 90px 90px 90px 90px;
+    grid-template-rows: 90px 90px 90px 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    column-gap: 30px;
+    row-gap: 30px;
+    object-fit: fill;
+    flex-wrap: wrap; 
+    font-family: Neucha;
+    justify-content: space-evenly;
+    .main, .section {
+        column-gap: $base-column-gap;
+      }
+    }
+
+    .Imagen__dentro_caja{
+        height: 200px;
+        width: 200px;
+        border-radius: 10px; 
+        border: 5px solid black;
+        box-shadow: 0 2px 4px grey;
+        transition: ease-in-out 0.2s;
+    }
+    .Imagen__dentro_caja:hover{
+        cursor: pointer;
+        height: 300px;
+        width: 300px;
+        transition: 0.2s cubic-bezier(0.42, 0, 0.58, 1); 
+    }
+    .textoimagen{
+        position: relative;
+        top: -10px;
+        background-color: beige;
+        padding-top: 2px;
+        border-radius: 5%;
+        border-style: dotted;
+        text-align: center;
+        cursor: pointer;
+    }
+    .textoimagen:hover{
+        border-style: dashed;
+    }
+    .p {
+        text-decoration: none;
+        background-color: black;
+    }
+
+.LogoComienzodepag {
+    position: absolute;
+    left: 50px;
+    top: 19px;
+}
+.LogoComienzodepag img {
+    width: 70px;
+    height: 70px;
+}
+
+.MensajeEntrada{
+    background-color: blanchedalmond;
+    text-align: center;
+    width: 500px;
+    height: 150px;
+    border-radius: 6%;
+    padding-top: 9px;
+    position: relative;
+    bottom: -40px;
+    font-size: 24px;    
+    border-style:ridge;
+}
+
+

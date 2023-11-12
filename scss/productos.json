@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "name": "Among us",
+      "image": "./imagenes/amongas.jpg",
+      "alt": "Tejido crochet de el juego among us",
+      "price": 900
+    },
+    {
+      "id": 2,
+      "name": "Bhuos",
+      "image": "./imagenes/bhuos2.jpg",
+      "alt": "Tejido crochet de bhuos",
+      "price": 800
+    },
+    {
+      "id": 3,
+      "name": "Boina",
+      "image": "./imagenes/boinadegaucho.jpg",
+      "alt": "Tejido crochet de una boina",
+      "price": 960
+    },
+    {
+      "id": 4,
+      "name": "Flipy",
+      "image": "./imagenes/flipy.jpg",
+      "alt": "Tejido crochet de un muñeco de flipy",
+      "price": 1300
+    },
+    {
+      "id": 5,
+      "name": "Gremlings",
+      "image": "./imagenes/gremlings.jpg",
+      "alt": "Tejido crochet de unos gremlins",
+      "price": 1500
+    },
+    {
+      "id": 6,
+      "name": "Marcelo",
+      "image": "./imagenes/marselo.jpg",
+      "alt": "Tejido crochet muñeco de marshemllow",
+      "price": 1300
+    },
+    {
+      "id": 7,
+      "name": "Cubremates",
+      "image": "./imagenes/mates.jpg",
+      "alt": "Tejido crochet cubremates",
+      "price": 400
+    },
+    {
+      "id": 8,
+      "name": "Muñeca",
+      "image": "./imagenes/muñeca.jpg",
+      "alt": "Tejido crochet de una muñeca",
+      "price": 1200
+    },
+    {
+      "id": 9,
+      "name": "Muñeca 2",
+      "image": "./imagenes/muñeca2.jpg",
+      "alt": "Tejido crochet de una muñeca",
+      "price": 1200
+    }
+  ]
+

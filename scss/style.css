@@ -1,0 +1,477 @@
+@import url(https://fonts.googleapis.com/css?family=Neucha:regular);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body html {
+  font-family: "Neucha-Regular, Neucha";
+  height: 100%;
+  font-size: 100%;
+  background: linear-gradient(to left, #87CEEB, rgb(117, 117, 165));
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to left, #87CEEB, rgb(117, 117, 165));
+}
+
+footer {
+  font-family: "Neucha-Regular, Neucha";
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  padding: 15px 0;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconosfooter {
+  display: flex;
+  gap: 15px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+header {
+  grid-area: header;
+  background-color: hwb(0 0% 100%);
+  padding: 30px;
+  height: 90px;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  flex-direction: left;
+  align-items: center;
+  font-family: Neucha;
+}
+nav a {
+  color: white;
+  font-size: 20px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  flex-direction: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.Comienzodepag {
+  left: 125px;
+  position: absolute;
+  font-size: 40px;
+  top: 25px;
+}
+
+.LogoComienzodepag {
+  position: absolute;
+  left: 50px;
+  top: 19px;
+}
+
+.LogoComienzodepag img {
+  width: 70px;
+  height: 70px;
+}
+
+.Carro {
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  font-size: 30px;
+  background-color: black;
+  display: inline-block;
+  position: relative;
+}
+
+.cantidad {
+  background: red;
+  border-radius: 50%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  top: -30%;
+  left: -60%;
+  transform: translateX(-50%);
+  padding: 3px 10px;
+}
+
+main, section {
+  display: flex;
+  grid-template-columns: 90px 90px 90px 90px;
+  grid-template-rows: 90px 90px 90px 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 30px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  flex-wrap: wrap;
+  font-family: Neucha;
+  justify-content: space-evenly;
+}
+main .main, main .section, section .main, section .section {
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+
+.Imagen__dentro_caja {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 5px solid black;
+  box-shadow: 0 2px 4px grey;
+  transition: ease-in-out 0.2s;
+}
+
+.Imagen__dentro_caja:hover {
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  transition: 0.2s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.textoimagen {
+  position: relative;
+  top: -10px;
+  background-color: beige;
+  padding-top: 2px;
+  border-radius: 5%;
+  border-style: dotted;
+  text-align: center;
+  cursor: pointer;
+}
+
+.textoimagen:hover {
+  border-style: dashed;
+}
+
+.p {
+  text-decoration: none;
+  background-color: black;
+}
+
+.LogoComienzodepag {
+  position: absolute;
+  left: 50px;
+  top: 19px;
+}
+
+.LogoComienzodepag img {
+  width: 70px;
+  height: 70px;
+}
+
+.MensajeEntrada {
+  background-color: blanchedalmond;
+  text-align: center;
+  width: 500px;
+  height: 150px;
+  border-radius: 6%;
+  padding-top: 9px;
+  position: relative;
+  bottom: -40px;
+  font-size: 24px;
+  border-style: ridge;
+}
+
+main, section {
+  display: flex;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+  row-gap: 30px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  flex-wrap: wrap;
+  font-family: Neucha;
+}
+
+.Imagen__dentro_caja {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 5px solid black;
+  box-shadow: 0 2px 4px grey;
+}
+
+.textoimagen {
+  position: relative;
+  top: -10px;
+  background-color: beige;
+  padding-top: 2px;
+  border-radius: 5%;
+  border-style: dotted;
+  text-align: center;
+  cursor: pointer;
+  transition-delay: 3ms;
+}
+
+.textoimagen:hover {
+  border-style: dashed;
+}
+
+.p {
+  text-decoration: none;
+  background-color: black;
+}
+
+main, section {
+  display: flex;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+  row-gap: 30px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  flex-wrap: wrap;
+  font-family: Neucha;
+}
+
+.Imagen__dentro_caja {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 5px solid black;
+  box-shadow: 0 2px 4px grey;
+}
+
+.textoimagen {
+  position: relative;
+  top: -10px;
+  background-color: beige;
+  padding-top: 2px;
+  border-radius: 5%;
+  border-style: dotted;
+  text-align: center;
+  cursor: pointer;
+  transition-delay: 3ms;
+}
+
+.textoimagen:hover {
+  border-style: dashed;
+}
+
+.p {
+  text-decoration: none;
+  background-color: black;
+}
+
+span {
+  font-size: large;
+}
+span a {
+  color: inherit;
+}
+
+.form-label {
+  font-size: large;
+}
+
+main, section {
+  display: flex;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+  row-gap: 30px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  flex-wrap: wrap;
+  font-family: Neucha;
+}
+
+.Imagen__dentro_caja {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 5px solid black;
+  box-shadow: 0 2px 4px grey;
+}
+
+.textoimagen {
+  position: relative;
+  top: -10px;
+  background-color: beige;
+  padding-top: 2px;
+  border-radius: 5%;
+  border-style: dotted;
+  text-align: center;
+  cursor: pointer;
+  transition-delay: 3ms;
+}
+
+.textoimagen:hover {
+  border-style: dashed;
+}
+
+.p {
+  text-decoration: none;
+  background-color: black;
+}
+
+@font-face {
+  font-family: Neucha;
+  src: url(../imagenes/Neucha-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+main, section {
+  display: flex;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+  row-gap: 30px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  flex-wrap: wrap;
+  font-family: Neucha;
+}
+
+.Imagen__dentro_caja {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 5px solid black;
+  box-shadow: 0 2px 4px grey;
+}
+
+.textoimagen {
+  position: relative;
+  top: -10px;
+  background-color: beige;
+  padding-top: 2px;
+  border-radius: 5%;
+  border-style: dotted;
+  text-align: center;
+  cursor: pointer;
+  transition-delay: 3ms;
+}
+
+.textoimagen:hover {
+  border-style: dashed;
+}
+
+.p {
+  text-decoration: none;
+  background-color: black;
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    height: 200px;
+  }
+  ul {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .MensajeEntrada {
+    max-width: 100%;
+    width: 80%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 420px) {
+  ul li a {
+    font-size: 16px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+.ActivarTienda {
+  display: none;
+  position: absolute;
+  right: 31%;
+  width: 300px;
+  height: auto;
+  z-index: 999;
+  border: 3px solid #CFBEBE;
+  background: #000000;
+  box-shadow: 0px 4px 4px 0px rgba(61, 17, 17, 0.25) inset;
+  color: whitesmoke;
+  font-size: 30px;
+  text-align: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ActivarTienda div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ActivarTienda img {
+  width: 50px;
+  border-radius: 15px;
+}
+
+.btncomprar {
+  display: inline;
+  border-radius: 50px;
+  border: 7px solid #050000;
+  background: #82B5D7;
+}
+
+.total-comprar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ActivarTienda span {
+  cursor: pointer;
+  font-size: 50px;
+  border-radius: 100%;
+  border-radius: 50px;
+  border: 7px solid #050000;
+  background: #E40000;
+}
+
+.ActivarTienda span:hover {
+  background-color: red;
+}
+
+.swal2-container {
+  z-index: 300000;
+  position: absolute;
+}/*# sourceMappingURL=style.css.map */
